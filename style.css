@@ -1,0 +1,110 @@
+/* resete em nosso html */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #E4EEF1;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4B93BF;
+    /* border: solid 5px black; */
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    color: white;
+    font-size: 25px;
+    list-style: none;
+    width: 12vw;
+}
+
+nav figure {
+    display: flex;
+    align-items: center;
+}
+
+
+figcaption {
+    justify-content: space-between;
+    font-size: 40px;
+    color: white;
+}
+
+footer {
+    background-color: #4B93BF;
+}
+
+footer p {
+    font-size: 20px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* classes */
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2vw;
+    /* border: solid 5px black; */
+}
+
+.section2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #4B93BF;
+    padding: 2vw;
+    /* border: solid 5px black; */
+}
+
+.section3 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2vw;
+    /* border: solid 5px black; */
+}
+
+.people {
+    text-align: center;
+    width: 32vw;
+}
+
+.paragrafo1 {
+    width: 500px;
+}
+
+.paragrafo1 p {
+    font-size: 20px;
+    color: #0F468C;
+}
+
+.paragrafo2 {
+    width: 600px;
+}
+
+.paragrafo2 {
+    color: white;
+    font-size: 32px;
+}
+
+.logo {
+    margin-top: 15px;
+}
